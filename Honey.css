@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+}
+
+.sher h1 {
+    color: rgb(10, 163, 127);
+    border-color: rgb(90, 174, 177);
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+
+    /* smooth zoom */
+    transition: transform 0.1s linear;
+
+    /* important for touch zoom */
+    touch-action: none;
+}
